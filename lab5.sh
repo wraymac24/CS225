@@ -5,8 +5,8 @@ MEDIALAB=~/medialab
 FOUND='0'
 LOST='0'
 
-#rm foundfiles.text
-#rm lostfiles.text
+rm -f foundfiles.text
+rm -f lostfiles.text
 
 for LINE in $MEDIALIST ;do
 		if [[ -e $MEDIALAB/$LINE ]] ;then
