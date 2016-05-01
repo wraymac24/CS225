@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+ADDRESS="$(cat /var/share/CS225/addresses.csv | tail -n1)"
+#	echo "$ADDRESS"
+FNAME="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+LNAME="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+COMPANY="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+STREET="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+CITY="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+STATE="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+ZIP="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+HPHONE="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+WPHONE="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+EMAIL="${ADDRESS%%,*}"
+ADDRESS="${ADDRESS#*,}"
+WEBURL="${ADDRESS%%,*}"
+
+
