@@ -1,0 +1,539 @@
+    1  free -m
+    2  ls
+    3  history
+    4  > .bash_history
+    5  script
+    6  ls
+    7  rm typescript 
+    8  ls
+    9  service salt-minion stop
+   10  ls
+   11  cd /etc/sysconfig/network-scripts/
+   12  ls
+   13  vi ifcfg-eth0 
+   14  cd /etc/salt/
+   15  ls
+   16  vi minion_id 
+   17  cd
+   18  history
+   19  > .bash_history 
+   20  halt
+   21  cat /etc/salt/minion_id 
+   22  rm /etc/salt/minion_id 
+   23  rm /etc/hostname 
+   24  ls
+   25  cd /etc/sysconfig/
+   26  ls
+   27  cat network
+   28  cat selinux 
+   29  halt
+   30  ls
+   31  exit
+   32  ls
+   33  cd /etc/salt/
+   34  ls
+   35  cat grains 
+   36  yum history
+   37  rpm -qa | grep mate
+   38  ls
+   39  cat minion_id 
+   40  rm minion_id 
+   41  halt
+   42  yum update
+   43  cd /etc/salt/
+   44  ls
+   45  cat minion_id 
+   46  rm minion_id 
+   47  cd /etc/sysconfig/network-scripts/
+   48  ls
+   49  vi ifcfg-eth0 
+   50  halt
+   51  cd /etc/sysconfig/network-scripts/
+   52  ls
+   53  > ifcfg-eth0 
+   54  cd ..
+   55  nmtui
+   56  ls
+   57  cd network-scripts/
+   58  ls
+   59  cat ifcfg-eth0 
+   60  vi ifcfg-eth0 
+   61  vi /etc/salt/minion_id 
+   62  halt
+   63  cd bin
+   64  cd CS225/
+   65  ls
+   66  ./script.sh 
+   67  ./script.sh one two three
+   68  ./script.sh 
+   69  ./script.sh one two three
+   70  ./script.sh 
+   71  exit
+   72  passwd 
+   73  ls
+   74  cd /
+   75  ls
+   76  ll
+   77  ssh-keygen -t rsa
+   78  ls -a
+   79  cat /root/.ssh/id_rsa.pub.
+   80  cat /.ssh/id_rsa.pub.
+   81  cat /root/.ssh/id_rsa.pub
+   82  ll
+   83  ls
+   84  cd /root/bin
+   85  cd /root
+   86  ll
+   87  mkdir bin
+   88  ls
+   89  cd bin
+   90  echo $PATH
+   91  git clone git@github.com:wraymac24/CS225.git
+   92  touch testfile
+   93  git add testfile
+   94  cd ~/bin/CS225
+   95  touch testfile
+   96  git add testfile
+   97  git commit -a
+   98  git push
+   99  git pull
+  100  cd
+  101  ls
+  102  cd bin
+  103  ls
+  104  rm testfile 
+  105  ls
+  106  cd
+  107  ls
+  108  cd /bin/CS225
+  109  cd /bin
+  110  ls
+  111  cd
+  112  ls
+  113  cd bin
+  114  ls
+  115  cd CS225/
+  116  ls
+  117  pwd
+  118  vi script.sh
+  119  chmod 754 script.sh
+  120  script.sh
+  121  ./script.sh 
+  122  echo $PATH
+  123  PATH="$PATH:/root/bin/CS225"
+  124  echo $PATH
+  125  ./script.sh 
+  126  vi script.sh 
+  127  vim script.sh 
+  128  cd
+  129  mkdir /labs
+  130  ls
+  131  cd /
+  132  ls
+  133  ll
+  134  rm labs
+  135  rm -r labs
+  136  ll
+  137  cd
+  138  mkdir labs
+  139  ls
+  140  cd labs
+  141  ll
+  142  history > history1.txt
+  143  ll
+  144  cd
+  145  ls -a
+  146  vim .bashrc
+  147  cd labs
+  148  ll
+  149  history > history1.txt 
+  150  ls
+  151  history > history1.txt 
+  152  exit
+  153  ls
+  154  cd /
+  155  ls
+  156  ll
+  157  history
+  158  cd
+  159  cd bin
+  160  ll
+  161  cd CS225/
+  162  ll
+  163  cd bin
+  164  ll
+  165  cd CS225/
+  166  ls
+  167  cat script.sh 
+  168  vim lab1.sh
+  169  chmod 754 lab1.sh
+  170  $PATH
+  171  ./lab1.sh 
+  172  vim lab1.sh 
+  173  ./lab1.sh 
+  174  ll
+  175  cp lab1.sh > /root/lab/
+  176  cd
+  177  ll
+  178  cp lab1.sh > /root/labs/
+  179  cd labs
+  180  ll
+  181  cp lab1.sh  /root/labs/
+  182  vim lab2.sh
+  183  cd
+  184  cd bin
+  185  ll
+  186  cd CS225/
+  187  ll
+  188  chmod 754 lab2.sh 
+  189  ll
+  190  ./lab2.sh 
+  191  99
+  192  ./lab2.sh 
+  193  cat lab1
+  194  cat lab1.sh 
+  195  cat lab2.sh 
+  196  cp lab2.sh  /root/labs
+  197  cd
+  198  cd labs
+  199  ll
+  200  vim
+  201  vim man
+  202  ll
+  203  cd
+  204  cd bin/
+  205  cd CS225/
+  206  ll
+  207  cat script.sh 
+  208  cd
+  209  cd labs
+  210  ll
+  211  history > history2.txt
+  212  ll
+  213  exit
+  214  exit
+  215  systemctl restart salt-minion
+  216  systemctl restart salt-master
+  217  yum install salt-master
+  218  systemctl restart salt-master
+  219  systemctl enable salt-minion
+  220  systemctl enable salt-master
+  221  cd /
+  222  ll
+  223  cd srv
+  224  ll
+  225  cd salt/
+  226  ll
+  227  git add
+  228  git add *
+  229  cat top.sls 
+  230  cat history2.txt
+  231  cd labs/
+  232  cat history2.txt 
+  233  git commit -a
+  234  cd
+  235  ll
+  236  cd bin/
+  237  ll
+  238  git commit -a
+  239  cd CS225/
+  240  ll
+  241  git commit -a
+  242  git add
+  243  git add .
+  244  git commit 
+  245  git push
+  246  cd
+  247  cd /srv
+  248  ll
+  249  cd salt/
+  250  ll
+  251  cd config/
+  252  ll
+  253  git add .
+  254  cd
+  255  ll
+  256  cd bin/
+  257  ll
+  258  cd CS225/
+  259  ll
+  260  cat lab2.sh 
+  261  chmod 754 lab4.sh
+  262  ./lab4.sh 
+  263  vim lab4.sh
+  264  ll
+  265  cat script.sh 
+  266  id -u $whoami
+  267  id -u james
+  268  cd
+  269  usradd james
+  270  addusr james
+  271  adduser james
+  272  cd /bin/CS225
+  273  cd bin
+  274  cd CS225/
+  275  id -u james
+  276  ls
+  277  cat $HOME
+  278  echo $HOME
+  279  echo /etc/passwd
+  280  cat /etc/passwd
+  281  chmod 754 lab3.sh
+  282  ./lab3.sh 
+  283  cd
+  284  cd /
+  285  ll
+  286  cd
+  287  ls -a
+  288  vim .bashrc 
+  289  exit
+  290  vim lab3.sh
+  291  exit
+  292  cd bin
+  293  cd CS225/
+  294  ll
+  295  lab1.sh 
+  296  cd bin
+  297  cd CS225/
+  298  lab3.sh 
+  299  -H -u root env
+  300  lab3.sh 
+  301  vim lab3.sh 
+  302  su james
+  303  lab3.sh 
+  304  su james
+  305  lab3.sh 
+  306  exit
+  307  exit
+  308  ll
+  309  cd bin
+  310  ll
+  311  cd CS225/
+  312  ll
+  313  vim lab4.sh 
+  314  vim lab3.sh 
+  315  lab3.sh
+  316  su james
+  317  chomd 754 lab3.sh 
+  318  chmod 754 lab3.sh 
+  319  ll
+  320  cd
+  321  cd labs
+  322  ll
+  323  cd /root/bin
+  324  cd CS225/
+  325  ll
+  326  cp lab3.sh /root/labs/
+  327  cd /root
+  328  cd labs
+  329  ll
+  330  cd /root/bin
+  331  cd CS225/
+  332  ll
+  333  vim lab3.sh 
+  334  vim lab4.sh 
+  335  exit
+  336  cd bin
+  337  cd CS225/
+  338  ll
+  339  lab3.sh 
+  340  lab4.sh 
+  341  cd bin
+  342  cd CS225/
+  343  ll
+  344  cat lab2.sh 
+  345  vim lab4.sh 
+  346  lab4.sh 
+  347  cp lab4.sh /root/labs
+  348  cd
+  349  cd labs
+  350  ll
+  351  vim lab3.sh 
+  352  vim lab4.sh 
+  353  cd
+  354  cd bin
+  355  cd CS225/
+  356  chmod 754 loops.sh
+  357  loops.sh 
+  358  ll
+  359  loops.sh 
+  360  loops.sh 1 2 3
+  361  loops.sh *
+  362  loops.sh 
+  363  vim loops.sh
+  364  cat loops.sh 
+  365  top
+  366  vim loops.sh 
+  367  ll
+  368  cd
+  369  cp /var/share/CS225/cs225-medialab.tar.gz cs225-medialab.tar.gz
+  370  ll
+  371  tar -xvzf cs225-medialab.tar.gz
+  372  ll
+  373  cat medialab/
+  374  cd medialab/
+  375  ll
+  376  cat medialist.txt 
+  377  cd
+  378  ll
+  379  cd medialab/
+  380  ll
+  381  cd -
+  382  ll
+  383  cd medialab/
+  384  ll
+  385  cat medialist.txt | wc -l
+  386  ll
+  387  cd .
+  388  . cd
+  389  ll
+  390  ls medialab | wc -l
+  391  chmod 754 lab5.sh
+  392  cd bin
+  393  cd CS225/
+  394  ll
+  395  chmod 754 lab5.sh 
+  396  ll
+  397  lab5.sh 
+  398  ll
+  399  cat foundfiles.txt | wc -l
+  400  cat lostfiles.txt | wc -l
+  401  vim lab5.sh
+  402  cd
+  403  cd labs
+  404  ll
+  405  history > /root/labs/history3.txt
+  406  exit
+  407  exit
+  408  cd bin/
+  409  ll
+  410  cd CS225/
+  411  ll
+  412  lab5.sh 
+  413  ll
+  414  lab5.sh 
+  415  vim lab5.sh 
+  416  git add *
+  417  git commit -a
+  418  git push
+  419  cp lab5.sh lab6.sh
+  420  ll
+  421  vim lab6.sh 
+  422  vim lab5.sh 
+  423  cd /bin
+  424  LL
+  425  ll
+  426  cd
+  427  ll
+  428  cd bin/
+  429  ll
+  430  cd CS225/
+  431  ll
+  432  cd -
+  433  ll
+  434  cd
+  435  ll
+  436  cd medialab/
+  437  ll
+  438  cat media.xml 
+  439  lab5.sh 
+  440  cd -
+  441  ll
+  442  cd bin/
+  443  cd CS225/
+  444  ll
+  445  ]cd -
+  446  cd -
+  447  ll
+  448  cd
+  449  cd medialab/
+  450  ll
+  451  cat media.xml 
+  452  less media.xml 
+  453  cat ~/medialab/media.xml.txt | grep ".mp[3]" 
+  454  cat media.xml.txt | grep ".mp[3]" 
+  455  cat media.xml | grep ".mp[3]" 
+  456  ll
+  457  (cat ~/medialab/media.xml.txt | grep ".mp[3]" | awk -F'<' '{print $2}' | awk -F'>' '{print $1}'
+  458  cat ~/medialab/media.xml.txt | grep ".mp[3]" | awk -F'<' '{print $2}' | awk -F'>' '{print $1}'
+  459  cat ~/medialab/media.xml | grep ".mp[3]" | awk -F'<' '{print $2}' | awk -F'>' '{print $1}'
+  460  cat media.xml | grep ".mp[3]" | awk -F'<' '{print $2}' | awk -F'>' '{print $1}'
+  461  cat media.xml | grep "\.mp" | awk -F'<' '{print $2}' | awk -F'>' '{print $1}'
+  462  cat media.xml | grep "\.mp" | awk -F'>' '{print $2}' | awk -F'<' '{print $1}'
+  463  lab6.sh 
+  464  cat ~/medialab/media.xml | grep "\.mp" | awk -F'>' '{print $2}' | awk -F'<' '{print $1}'
+  465  cat ~/medialab/media.xml | grep "\.mp" | awk -F'>' '{print $2}' | awk -F'<' '{print $1}' | wc -l
+  466  lab6.sh 
+  467  lab6.sh | less
+  468  cd
+  469  cd bin
+  470  cd CS225/
+  471  ll
+  472  lab6.sh 
+  473  lab6.sh | less
+  474  ll
+  475  lab6.sh | less
+  476  lab6.sh > lab6output.txt
+  477  ll
+  478  cat lab6output.txt 
+  479  cp lab6.sh > /root/labs
+  480  cp lab6.sh > /root/labs/
+  481  cp lab6.sh > /root/labs/lab6.sh
+  482  cp lab6.sh /root/labs/
+  483  cd
+  484  ll
+  485  cd labs/
+  486  ll
+  487  rm lab6.sh 
+  488  ll
+  489  cd
+  490  cd bin/
+  491  cd CS225/
+  492  cp lab5.sh /root/labs/
+  493  cp lab6.sh /root/labs/
+  494  cd
+  495  cd labs/
+  496  ll
+  497  cd 
+  498  cd bin/
+  499  cd CS225/
+  500  ll
+  501  mv lab6output.txt /root/labs/
+  502  lab5.sh 
+  503  cp foundfiles.txt /root/labs/
+  504  cp lostfiles.txt /root/labs/
+  505  cd
+  506  cd labs
+  507  ll
+  508  history > history4.txt
+  509  ll
+  510  exit
+  511  vim lab6.sh 
+  512  cd
+  513  cd labs
+  514  ll
+  515  exit
+  516  lab6.sh 
+  517  less lab6.sh
+  518  cd bin
+  519  cd CS225/
+  520  ll
+  521  less lab6.sh
+  522  lab6.sh less
+  523  lab6.sh | less
+  524  vim lab6.sh 
+  525  git commit *
+  526  git add *
+  527  git commit -a
+  528  git push
+  529  vim lab6.sh 
+  530  ll
+  531  lab6.sh | less > lab6output.txt
+  532  ll
+  533  cat lab6output.txt 
+  534  mv lab6output.txt /root/labs/
+  535  lab6.sh | less
+  536  cp lab6.sh /root/labs/
+  537  lab6.sh | less
+  538  vim lab6.sh 
+  539  history > history5.txt
